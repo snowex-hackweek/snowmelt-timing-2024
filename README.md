@@ -4,6 +4,7 @@ This is an example of how teams can structure their project repositories and for
 
 When creating a project repository from this template choose "Public" so other participants can follow progress. Add a "topic" to your repository details (click on the gear icon next to the "About" section on the repository page) to help others find your work (e.g. `icesat2-hackweek-2024`).
 
+### **This project is a spiritual successor to the 2022 snowex hackweek project snowmelt-timing, check out that repo [here](https://github.com/snowex-hackweek/snowmelt-timing).**
 
 ## Files and folders in your project repository
 
