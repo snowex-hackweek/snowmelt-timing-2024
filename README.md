@@ -1,56 +1,24 @@
-# Sample Project
+# snowmelt-timing-2024
 
-This is an example of how teams can structure their project repositories and format their project README.md file.
+## Seasonal snowmelt timing
 
-When creating a project repository from this template choose "Public" so other participants can follow progress. Add a "topic" to your repository details (click on the gear icon next to the "About" section on the repository page) to help others find your work (e.g. `icesat2-hackweek-2024`).
-
-### **This project is a spiritual successor to the 2022 snowex hackweek project snowmelt-timing, check out that repo [here](https://github.com/snowex-hackweek/snowmelt-timing).**
-
-## Files and folders in your project repository
-
-This template provides the following suggested organizaiton structure for the project repository, but each project team is free to organize their repository as they see fit.
-
-* **`contributors/`**
-<br> Each team member can create their own folder under contributors, within which they can work on their own scripts, notebooks, and other files. Having a dedicated folder for each person helps to prevent conflicts when merging with the main branch. This is a good place for team members to start off exploring data and methods for the project.
-* **`notebooks/`**
-<br> Notebooks that are considered delivered results for the project should go in here.
-* **`scripts/`**
-<br> Code that is shared by the team should go in here (e.g. functions or subroutines). These will be files other than Jupyter Notebooks such as Python scripts (.py).
-* `.gitignore`
-<br> This file sets the files that will be globally ignored by `git` for the project. (e.g. you may want git to ignore temporary files or large data files, [read more about ignoring files here](https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files))
-* `environment.yml`
-<br> `conda` environment description needed to run this project.
-* `README.md`
-<br> Description of the project (see suggested headings below)
-* `model-card.md`
-<br> Description (following a metadata standard) of any machine learning models used in the project
-
-# Recommended content for your README.md file:
-
-(you can remove the content here and above from your final project README.md file so that it begins with the Project or Team Name title below)
-
-# Project or Team Name
-
-## Project Title and Introduction
-
-Provide a brief introduction describing the proposed work. Be sure to also decribe what skills team members will get to learn and practice as part of this project.
+The purpose of this project is to explore different data and methodologies that, when combined, will help us better understand seasonal snowmelt timing. Amongst other types of data, team members will be exposed to Sentinel-1 SAR data, SNOTEL data, MODIS snow products, SWE reanalysis products, and SnowEx snow pit data. This project is intentionally more flexible, if you have ideas adjacent to this work, let's find ways to build it in! **This project is a spiritual successor to the 2022 snowex hackweek project snowmelt-timing, check out our [repo](https://github.com/snowex-hackweek/snowmelt-timing) and [presentation](https://docs.google.com/presentation/d/1czTH2q2nH_Lf7uoYkDXu03mFaJVkOE3GxtXRAFWuBhg/edit?usp=sharing).** 
 
 ### Collaborators
 
-List all participants on the project. Here is a good space to share your personal goals for the hackweek and things you can help with.
-
 | Name | Personal goals | Can help with | Role |
 | ------------- | ------------- | ------------- | ------------- |
-| Katherine J. | I want to learn specific python libraries for working with these data  | I can help with understanding our dataset, programming in R  | Project Lead |
-| Rosalind F. | Practice leading a software project | machine learning and python (scipy, scikit-learn) | Project Lead |
-| Alan T. | learning about your dataset | GitHub, Jupyter, cloud computing | Project Helper |
-| Rachel C. | learn to use github, resolve merge conflicts | I am familiar with our dataset | Team Member  |
+| eric gagliano | I want to learn how different types of snowmelt data can compliment each other! | I can help with SAR / snowmelt theory, data access | project lead (hopefully co-lead??) |
+| example person 1 | I want to learn specific python libraries for working with these data  | I can help with understanding our dataset, programming in R  | Project Lead |
+| example person 2 | Practice leading a software project | machine learning and python (scipy, scikit-learn) | Project Lead |
+| example person 3 | learning about your dataset | GitHub, Jupyter, cloud computing | Project Helper |
+| example person 4 | learn to use github, resolve merge conflicts | I am familiar with our dataset | Team Member  |
 | ... | ... | ... | ... |
 | ... | ... | ... | ... |
 
 ### The problem
 
-Provide a few sentences describing the problem are you going to explore. If this is a technical exploration of software or data science methods, explain why this work is important in a broader context and specific applications of this work.
+Snowmelt timing has high spatial and temporal variability, and different types of data and methodologies that attempt to measure properties of snowmelt have their own strengths and weaknesses. This project hopes to address these challanges, leveraging the strengths of disparate appraoches to better characterize the evolution of snowmelt.
 
 ## Data and Methods
 
