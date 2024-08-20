@@ -11,7 +11,7 @@ The purpose of this project is to explore different data and methodologies that,
 | eric gagliano | I want to learn how different types of snowmelt data can compliment each other! | I can help with SAR / snowmelt theory, data access | project lead (hopefully co-lead??) |
 | example person 1 | I want to learn specific python libraries for working with these data  | I can help with understanding our dataset, programming in R  | Project Lead |
 | example person 2 | Practice leading a software project | machine learning and python (scipy, scikit-learn) | Project Lead |
-| example person 3 | learning about your dataset | GitHub, Jupyter, cloud computing | Project Helper |
+| Jesse Pisel | learning more about state of the art in remote sensing and snowmelt | machine learning, deep learning, project management | Project Helper |
 | example person 4 | learn to use github, resolve merge conflicts | I am familiar with our dataset | Team Member  |
 | ... | ... | ... | ... |
 | ... | ... | ... | ... |
