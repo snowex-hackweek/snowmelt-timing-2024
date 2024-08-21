@@ -1,0 +1,23 @@
+# Location,Jemez River
+# Site,BA Flux Tower
+# PitID,NMJRBA_20200226_1139
+# Date/Local Standard Time,2020-02-26T11:39
+# UTM Zone,13N
+# Easting,361736
+# Northing,3972673
+# Latitude,35.88857
+# Longitude,-106.53188
+# Flags,
+# Pit Comments,"Snow surface was wind-stripped (sastrugi), so the location of the
+profile (82cm at surface) was slightly lower than location of hand
+hardness (85cm at surface)"
+# Parameter Codes,n/a for this parameter
+# Top (cm),Bottom (cm),Avg Density (kg/m3),Permittivity A,Permittivity B,LWC-vol A (%),LWC-vol B (%)
+82.0,72.0,240.5,-9999,-9999,-9999,-9999
+72.0,62.0,297.0,-9999,-9999,-9999,-9999
+62.0,52.0,262.5,-9999,-9999,-9999,-9999
+52.0,42.0,294.0,-9999,-9999,-9999,-9999
+42.0,32.0,302.0,-9999,-9999,-9999,-9999
+32.0,22.0,310.5,-9999,-9999,-9999,-9999
+22.0,12.0,324.0,-9999,-9999,-9999,-9999
+12.0,2.0,287.0,-9999,-9999,-9999,-9999
