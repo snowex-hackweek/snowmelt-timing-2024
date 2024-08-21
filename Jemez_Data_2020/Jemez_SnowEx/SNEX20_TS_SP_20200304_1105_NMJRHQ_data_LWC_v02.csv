@@ -1,0 +1,20 @@
+# Location,Jemez River
+# Site,HQ Met Station
+# PitID,NMJRHQ_20200304_1105
+# Date/Local Standard Time,2020-03-04T11:05
+# UTM Zone,13N
+# Easting,362632
+# Northing,3969257
+# Latitude,35.85791
+# Longitude,-106.52137
+# Flags,"MW, AD"
+# Pit Comments,"density cutter tare weight: 757g  See pit book photo for calorimeter
+data.  Flag: MW, AD"
+# Parameter Codes,n/a for this parameter
+# Top (cm),Bottom (cm),Avg Density (kg/m3),Permittivity A,Permittivity B,LWC-vol A (%),LWC-vol B (%)
+57.0,47.0,353.75,2.016,2.018,2.41,2.42
+47.0,37.0,322.5,1.476,1.626,0.0,0.7
+37.0,27.0,338.0,1.369,1.426,0.0,0.0
+27.0,17.0,305.75,1.375,1.325,0.0,0.0
+17.0,7.0,365.5,1.511,1.551,0.0,0.0
+14.0,4.0,354.25,1.618,1.431,0.35,0.0
