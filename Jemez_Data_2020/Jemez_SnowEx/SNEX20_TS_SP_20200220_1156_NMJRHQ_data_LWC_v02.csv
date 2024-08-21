@@ -1,0 +1,20 @@
+# Location,Jemez River
+# Site,HQ Met Station
+# PitID,NMJRHQ_20200220_1156
+# Date/Local Standard Time,2020-02-20T11:56
+# UTM Zone,13N
+# Easting,362633
+# Northing,3969258
+# Latitude,35.85792
+# Longitude,-106.52136
+# Flags,MW
+# Pit Comments,"Clear signs of loss of SWE: shallower pit, tall grasses poking through
+snowpack.  Density cutter tare weight: 758g.  Flag: MW"
+# Parameter Codes,n/a for this parameter
+# Top (cm),Bottom (cm),Avg Density (kg/m3),Permittivity A,Permittivity B,LWC-vol A (%),LWC-vol B (%)
+60.0,50.0,304.0,1.593,1.535,0.7,0.4
+50.0,40.0,281.0,1.434,1.466,0.1,0.26
+40.0,30.0,297.0,1.285,1.318,0.0,0.0
+30.0,20.0,286.25,1.318,1.239,0.0,0.0
+20.0,10.0,348.0,1.363,1.434,0.0,0.0
+13.0,3.0,300.5,1.349,1.312,0.0,0.0
