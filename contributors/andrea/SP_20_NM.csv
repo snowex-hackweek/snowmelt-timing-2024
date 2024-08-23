@@ -1,0 +1,50 @@
+#------------------------------------,,,,,,,,,,,,,,,,
+#------------------------------------,,,,,,,,,,,,,,,,
+#Data provided in this file: Summary SWE derived from snow pit depth and density profiles during the NASA SnowEx 2020 Time Series. Height of snow and a duel density profile is part of the standard snow pit protocol.,,,,,,,,,,,,,,,,
+#------------------------------------,,,,,,,,,,,,,,,,
+#Period of record: 2019-10-24 to 2020-05-20,,,,,,,,,,,,,,,,
+"#Measurement frequency: weekly, on average, depending on site. ",,,,,,,,,,,,,,,,
+#Data description: Snow pit measurements occured at designated locations for the NASA SnowEx 2020 Time Series,,,,,,,,,,,,,,,,
+#------------------------------------,,,,,,,,,,,,,,,,
+#Attributes:,,,,,,,,,,,,,,,,
+#Name,Column number,Description,,,,,,,,,,,,,,
+Location,1,Regional site location,,,,,,,,,,,,,,
+Site,2,Study plot area name,,,,,,,,,,,,,,
+PitID,3,"unique pit identifier: XXXXXX: 6-letter alpha(numeric) for State (2-letter), Location (2-letter), Site (2-letter) pitID; yyyymmdd; HH:MM",,,,,,,,,,,,,,
+Date/Local Standard Time,4,yyyy-mm-ddTHH:MM,,,,,,,,,,,,,,
+UTM Zone,5,2-digit UTM zone,,,,,,,,,,,,,,
+Easting,6,"Projected x-coordinate in UTM 10N, 11N, 12N, 13N WGS84 (meters)",,,,,,,,,,,,,,
+Northing,7,"Projected y-coordinate in UTM 10N, 11N, 12N, 13N, WGS84 (meters)",,,,,,,,,,,,,,
+Latitude,8,Latitude (decimal degrees),,,,,,,,,,,,,,
+Longitude,9,Longitude (decimal degrees),,,,,,,,,,,,,,
+Density A mean,10,Density profile A mean (kg/m3),,,,,,,,,,,,,,
+Density B mean,11,Density profile B mean (kg/m3),,,,,,,,,,,,,,
+Density mean,12,Density duel profile mean (kg/m3),,,,,,,,,,,,,,
+SWE A,13,derived total SWE from density A profile (mm),,,,,,,,,,,,,,
+SWE B,14,derived total SWE from density B profile (mm),,,,,,,,,,,,,,
+SWE mean,15,derived mean total SWE from duel density profile (mm),,,,,,,,,,,,,,
+HS,16,Height of Snow (cm) with ground surface as the baseline datum,,,,,,,,,,,,,,
+Flag,17,BDG=Bottom Density Gap; MDG=Middle Density Gap; TDB=Top Density Gap; AD=Additional Data; MW=Manual Wetness; STCom=Stratigraphy Comment; STLay=Stratigrapy Layer. NSIDC User Guide has more detail.,,,,,,,,,,,,,,
+#------------------------------------,,,,,,,,,,,,,,,,
+#Flags:,,,,,,,,,,,,,,,,
+#Name,Description,,,,,,,,,,,,,,,
+#-9999,Densites were not collected during the snow pit visit and there is no derived total SWE,,,,,,,,,,,,,,,
+#------------------------------------,,,,,,,,,,,,,,,,
+Location,Site,PitID,time,UTM Zone,Easting (m),Northing (m),Latitude (deg),Longitude (deg),Density A Mean (kg/m^3),Density B Mean (kg/m^3),Density Mean (kg/m^3),SWE A (mm),SWE B (mm),SWE (mm),HS (cm),Flag
+1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17
+Jemez River,BA Flux Tower,NMJRBA_20191220_1450,2019-12-20T14:50,13N,361743,3972674,35.888579828112064,-106.5318041,295,295,295,144,144,144,49,
+Jemez River,BA Flux Tower,NMJRBA_20200122_1420,2020-01-22T14:20,13N,361743,3972675,35.88858884099265,-106.5318043,276,275,275.5,254,252,253,92,BDG
+Jemez River,BA Flux Tower,NMJRBA_20200129_1119,2020-01-29T11:19,13N,361743,3972676,35.888597853873215,-106.5318045,280,286,283,252,257,254.5,90,
+Jemez River,BA Flux Tower,NMJRBA_20200205_1114,2020-02-05T11:14,13N,361739,3972679,35.888624327357654,-106.5318493,289,298,293.5,261,270,265.5,90,
+Jemez River,BA Flux Tower,NMJRBA_20200212_1337,2020-02-12T13:37,13N,361744,3972675,35.88858898,-106.5317932,-9999,-9999,-9999,-9999,-9999,-9999,nan,"TDG, MDG, BDG"
+Jemez River,BA Flux Tower,NMJRBA_20200220_1234,2020-02-20T12:34,13N,361736,3972673,35.888569826197646,-106.5318815,290,290,290,232,232,232,80,MW
+Jemez River,BA Flux Tower,NMJRBA_20200226_1139,2020-02-26T11:39,13N,361736,3972673,35.888569826197646,-106.5318815,292,287,289.5,240,236,238,82,
+Jemez River,BA Flux Tower,NMJRBA_20200304_1116,2020-03-04T11:16,13N,361734,3972677,35.888605595127984,-106.5319043,308,307,307.5,251,250,250.5,81.5,"TDG, MW"
+Jemez River,HQ Met Station,NMJRHQ_20191220_1100,2019-12-20T11:00,13N,362630,3969259,35.85792553723173,-106.5213911,244,262,253,86,92,89,35,BDG
+Jemez River,HQ Met Station,NMJRHQ_20200122_1115,2020-01-22T11:15,13N,362630,3969259,35.85792553723173,-106.5213911,257,258,257.5,184,185,184.5,72,BDG
+Jemez River,HQ Met Station,NMJRHQ_20200129_1026,2020-01-29T10:26,13N,362631,3969256,35.85789863854342,-106.5213795,266,275,270.5,183,191,187,69,
+Jemez River,HQ Met Station,NMJRHQ_20200205_1100,2020-02-05T11:00,13N,362631,3969255,35.85788962557287,-106.5213794,284,289,286.5,187,191,189,66,
+Jemez River,HQ Met Station,NMJRHQ_20200212_1305,2020-02-12T13:05,13N,362633,3969255,35.85788990601589,-106.5213572,259,265,262,186,190,188,72,
+Jemez River,HQ Met Station,NMJRHQ_20200220_1156,2020-02-20T11:56,13N,362633,3969258,35.85791694492776,-106.5213577,308,298,303,184,177,180.5,60,MW
+Jemez River,HQ Met Station,NMJRHQ_20200226_1157,2020-02-26T11:57,13N,362633,3969258,35.85791694492776,-106.5213577,310,308,309,204,203,203.5,66,MW
+Jemez River,HQ Met Station,NMJRHQ_20200304_1105,2020-03-04T11:05,13N,362632,3969257,35.85790779173607,-106.5213686,338,341,339.5,193,195,194,57,"MW, AD"
