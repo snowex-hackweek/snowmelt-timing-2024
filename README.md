@@ -8,12 +8,12 @@ The purpose of this project is to explore different data and methodologies that,
 
 | Name | Personal goals | Can help with | Role |
 | ------------- | ------------- | ------------- | ------------- |
-| eric gagliano | I want to learn how different types of snowmelt data can compliment each other! | I can help with SAR / snowmelt theory, data access | project lead (hopefully co-lead??) |
-| example person 1 | I want to learn specific python libraries for working with these data  | I can help with understanding our dataset, programming in R  | Project Lead |
-| example person 2 | Practice leading a software project | machine learning and python (scipy, scikit-learn) | Project Lead |
+| Eric Gagliano | I want to learn how different types of snowmelt data can compliment each other! | I can help with SAR / snowmelt theory, data access | project lead (hopefully co-lead??) |
+| Emma Boudreau | I want to learn specific python libraries for working with these data  | I can help with understanding our dataset, programming in R  | Project Lead |
+| Lexi Arlen | Practice leading a software project | machine learning and python (scipy, scikit-learn) | Project Lead |
 | Jesse Pisel | learning more about state of the art in remote sensing and snowmelt | machine learning, deep learning, project management | Project Helper |
-| example person 4 | learn to use github, resolve merge conflicts | I am familiar with our dataset | Team Member  |
-| ... | ... | ... | ... |
+| Andrea Bruckmeier | learn to use github, resolve merge conflicts, get to know the wet snow datasets and datasets with an SWE or LWC output | I am familiar with wet snow reagrding avalanches | Team Member  |
+| Molly Tedesche | ... | ... | ... |
 | ... | ... | ... | ... |
 
 ### The problem
@@ -48,6 +48,7 @@ SAR snowmelt toolbox and snow wetness tools I've built:
 
 What new approaches would you like to implement for addressing your specific question(s) or application(s)?
 
+
 ### Additional resources or background reading
 
 **TBD!**
@@ -62,11 +63,10 @@ Optional: links to manuscripts or technical documents providing background infor
 
 **TBD!**
 
-List the specific project goals or research questions you want to answer. Think about what outcomes or deliverables you'd like to create (e.g. a series of tutorial notebooks demonstrating how to work with a dataset, results of an anaysis to answer a science question, an example of applying a new analysis method, or a new python package).
+The goal of this project is to explore different data and methodologies that, when combined, will help us better understand seasonal snowmelt timing.
 
-* Goal 1
-* Goal 2
-* ...
+* Goal 1 (provide a timeseris of different datasets displaying outputs that help to understand seasonal snowmelt timing)
+* Goal 2 (comparison of datasets)
 
 ### Tasks
 
@@ -74,17 +74,25 @@ List the specific project goals or research questions you want to answer. Think 
 
 What are the individual tasks or steps that need to be taken to achieve each of the project goals identified above? What are the skills that participants will need or will learn and practice to complete each of these tasks? Think about which tasks are dependent on prior tasks, or which tasks can be performed in parallel.
 
-* Task 1 (all team members will learn to use GitHub)
-* Task 2 (team members will use the scikit-learn python library)
-  * Task 2a (assigned to team member A)
-  * Task 2b (assigned to team member B)
-* Task 3
-* ...
+* Task 1 (get an overview of the datasets that include information on snow melt and wet snow)
+* Task 2 (each of the team memeber focuses on one or two datasets to explore and compare)
+* Task 3 (bring all outputs together)
+
 
 ## Project Results
 
 **TBD!**
 
-Use this section to briefly summarize your project results. This could take the form of describing the progress your team made to answering a research question, developing a tool or tutorial, interesting things found in exploring a new dataset, lessons learned for applying a new method, personal accomplishments of each team member, or anything else the team wants to share.
+We focussed on the Grand Mesa (CO) location in the winter season 2019/2020. We were looking through the available data for this location and could plot time series for various SWE, temperature and LWC measurements. Our group's main goal was to provide an overview of the data that is available and what the output of each dataset can tell us in terms of snow melt and wet snow. 
+We had a look at: 
+* Sentinel-1 C-band RTC
+* MODIS snow products
+* Harmonized Landsat / Sentinel-2 optical
+* SnowEx snow pit data
+* SNOTEL automatic weather station data
+* SWE reanalysis products
+The result shows comparisons over a timeseries [link]
 
-You could include figures or images here, links to notebooks or code elsewhere in the repository (such as in the [notebooks](notebooks/) folder), and information on how others can run your notebooks or code.
+At a different location, the Jemez Mountain (NM), we compared the LWC of the snow pit data to the GPR data for three specific dates, on which both datasets were available. The code for this can be found here: [https://github.com/snowex-hackweek/snowmelt-timing-2024/blob/main/contributors/andrea/LWC_pits.ipynb]
+
+
