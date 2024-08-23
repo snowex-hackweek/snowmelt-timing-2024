@@ -14,7 +14,8 @@ The purpose of this project is to explore different data and methodologies that,
 | Jesse Pisel | learning more about state of the art in remote sensing and snowmelt | machine learning, deep learning, project management | Project Helper |
 | Andrea Bruckmeier | learn to use github, resolve merge conflicts, get to know the wet snow datasets and datasets with an SWE or LWC output | I am familiar with wet snow reagrding avalanches | Team Member  |
 | Molly Tedesche | ... | ... | ... |
-| ... | ... | ... | ... |
+| Savalan Naseiry | ... | ... | ... |
+| Randall Bonnell | ... | ... | ... |
 
 ### The problem
 
