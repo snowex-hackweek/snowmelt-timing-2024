@@ -10,7 +10,7 @@ The purpose of this project is to explore different data and methodologies that,
 | ------------- | ------------- | ------------- | ------------- |
 | Eric Gagliano | I want to learn how different types of snowmelt data can compliment each other! | I can help with SAR / snowmelt theory, data access | project lead (hopefully co-lead??) |
 | Emma Boudreau | I want to learn specific python libraries for working with these data  | I can help with understanding our dataset, programming in R  | Project Lead |
-| Lexi Arlen | Practice leading a software project | machine learning and python (scipy, scikit-learn) | Project Lead |
+| Lexi Arlen | Learn remote sensing workflows & python packages | machine learning and python (scipy, scikit-learn) | Team Member |
 | Jesse Pisel | learning more about state of the art in remote sensing and snowmelt | machine learning, deep learning, project management | Project Helper |
 | Andrea Bruckmeier | learn to use github, resolve merge conflicts, get to know the wet snow datasets and datasets with an SWE or LWC output | I am familiar with wet snow reagrding avalanches | Team Member  |
 | Molly Tedesche | ... | ... | ... |
