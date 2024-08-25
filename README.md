@@ -15,7 +15,7 @@ The purpose of this project is to explore different data and methodologies that,
 | Andrea Bruckmeier | learn to use github, resolve merge conflicts, get to know the wet snow datasets and datasets with an SWE or LWC output | I am familiar with wet snow reagrding avalanches | Team Member  |
 | Molly Tedesche | ... | ... | ... |
 | Savalan Naseiry | ... | ... | ... |
-| Randall Bonnell | ... | ... | ... |
+| Randall Bonnell | Explore applicability of GPR for C-band wet snow validation | GPR LWC calculations, C-band lit review | Team Member |
 
 ### The problem
 
